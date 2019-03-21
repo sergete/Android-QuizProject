@@ -1,0 +1,50 @@
+question1 = Cual es el daño de la bola de hielo a torre con reglas de torneo
+Respuesta = 45
+
+question2 = Cual es la carta con menos daño por segundo del juego
+Respuesta = golem de hielo (28)
+
+question3 = Cual tiene más alcance la mosquetera o máquina voladora
+Respuesta = Igual
+
+question4 = Cuanta vida tiene la torre del rey a reglas de torneo
+Respuesta = 4008
+
+question5 = Cuantas cartas hay con coste 2
+Respuesta = 8
+
+question6 = Cuanto tiempo dura la curación
+Respuesta = 2.5 segundos
+
+question7 = Cuantos duendes salen de la choza de duendes en total
+Respuesta = 12
+
+question8 = Cuantos globos tiene el barril de esqueletos
+Respuesta = 3
+
+question9 = Cuantos reclutas reales aparecen en la imágen de su carta
+Respuesta = 3
+
+question10 = De que color tiene el pelo y las cejas el arquero mágico
+Respuesta = pelo gris y cejas negras
+
+question11 = De que color tiene los ojos el cazador
+Respuesta = Los tiene tapados
+
+question12 = De que color tiene los ojos la princesa
+Respuesta = marrones
+
+question13 = que tropa hace más daño si no se defiende, bandida o barril esqueletos
+Respuesta = barril de esqueletos
+
+question14 = QueCejaTieneLevantadaElMagoElectrico
+Respuesta = la izquerda
+
+question15 = Quien tiene más puntos el leñador o el fantasma real
+Respuesta = fantasma real
+
+
+
+
+
+

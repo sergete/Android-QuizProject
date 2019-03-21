@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Clash Royale Quiz</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="photo">Photo property of Supercell</string>
+    <string name="nombre">Nombre</string>
+    <string name="logo_urjc">Logo Universidad Rey Juan Carlos Campus de Móstoles</string>
+    <string name="configuracion">Configuración</string>
+    <string name="exit">Salir</string>
+    <string name="start_quiz">Empezar Quiz</string>
+    <string name="volver_menu">Volver al Menú</string>
+    <string name="dificultad">Dificultad</string>
+    <string name="modo_de_juego">Modo de Juego</string>
+    <string name="perfil_de_usuario">Perfil de Usuario</string>
+    <string name="aplicar_cambios">Aplicar Cambios</string>
+    <string name="crear_perfil">Crear Perfil</string>
+    <string name="seleccionar_perfil">Seleccionar Perfil</string>
+    <string name="borrar_perfil">Borrar Perfiles</string>
+    <string name="METADATA">METADATA</string>
+    <string name="perfiles">Perfiles</string>
+    <string name="facil">FACIL</string>
+    <string name="medio">MEDIO</string>
+    <string name="dificil">DIFICIL</string>
+    <string name="azar">AZAR</string>
+    <string name="multimedia">MULTIMEDIA</string>
+    <string name="foto_perfil">FOTO DE PERFIL</string>
+    <string name="inserte_nombre">Inserte su nombre</string>
+    <string name="volver">Volver</string>
+    <string name="nombre_jugador">Nombre del jugador</string>
+    <string name="tiempo_partida">Tiempo de partida</string>
+    <string name="enhorabuena">¡Enhorabuena!</string>
+    <string name="intentalo_de_nuevo">¡Inténtalo de nuevo!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="solucion">Solucion</string>
+    <string name="replay">Replay</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="button">Button</string>
+    <string name="replay_audio">Replay Audio</string>
+    <string name="puntuacion">PUNTUACIÓN:</string>
+    <string name="default_puntuacion">0</string>
+    <string name="pregunta">Pregunta?</string>
+    <string name="todo">TODO</string>
+    <string name="debe_seleccionar_un_perfil_para_continuar">Debe seleccionar un perfil para continuar</string>
+    <string name="score">Puntuacion:</string>
+    <string name="punt">punt:</string>
+</resources>

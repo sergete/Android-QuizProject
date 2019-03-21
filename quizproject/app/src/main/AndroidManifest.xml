@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="urjc.android.jms_ss.quizproject">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/royale_quiz_logoapp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/royale_quiz_logoapp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.PreviewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.InterfaceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.QuizActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.IntroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ScoreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ConfigurationActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activities.QuestionsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.MultimediaSolutionActivity"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".activities.ScoreChartActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

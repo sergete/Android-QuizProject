@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clash Royale Quiz</string>
+    <string name="title_activity_quiz">QuizActivity</string>
+    <string name="photo">Photo property of Supercell</string>
+    <string name="nombre">Name</string>
+    <string name="logo_urjc">King Juan Carlos University logo</string>
+    <string name="configuracion">Configuration</string>
+    <string name="exit">Exit</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="volver_menu">Back to Menu</string>
+    <string name="dificultad">Difficulty</string>
+    <string name="modo_de_juego">Game Mode</string>
+    <string name="perfil_de_usuario">User Profile</string>
+    <string name="aplicar_cambios">Apply Changes</string>
+    <string name="crear_perfil">New Profile</string>
+    <string name="seleccionar_perfil">Select Profile</string>
+    <string name="borrar_perfil">Delete Profiles</string>
+    <string name="METADATA">METADATA</string>
+    <string name="perfiles">Profiles</string>
+    <string name="facil">EASY</string>
+    <string name="medio">NORMAL</string>
+    <string name="dificil">HARD</string>
+    <string name="azar">RANDOM</string>
+    <string name="multimedia">MEDIA</string>
+    <string name="foto_perfil">PROFILE PICTURE</string>
+    <string name="inserte_nombre">Insert your name</string>
+    <string name="volver">Back</string>
+    <string name="nombre_jugador">Player name</string>
+    <string name="puntuacion">PUNTUACIÓN:</string>
+    <string name="default_puntuacion">0</string>
+    <string name="pregunta">Pregunta?</string>
+    <string name="debe_seleccionar_un_perfil_para_continuar">Debe seleccionar un perfil para continuar</string>
+    <string name="score">Puntuacion:</string>
+    <string name="punt">punt:</string>
+</resources>

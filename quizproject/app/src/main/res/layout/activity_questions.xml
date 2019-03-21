@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiente"
+    tools:context=".activities.QuestionsActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="429dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/act_questions_siguiente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/act_questions_timerTxt">
+
+        <FrameLayout
+            android:id="@+id/act_questions_frg_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </FrameLayout>
+    </android.support.constraint.ConstraintLayout>
+
+    <Button
+        android:id="@+id/act_questions_backMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cancelColor"
+        android:text="@string/volver_menu"
+        android:textColor="#000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/act_questions_siguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorAccent"
+        android:text="@string/siguiente"
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Chronometer
+        android:id="@+id/act_questions_time"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/act_questions_timerTxt"
+        app:layout_constraintTop_toBottomOf="@+id/act_questions_backMenu"
+        />
+
+    <TextView
+        android:id="@+id/act_questions_timerTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Crono: "
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toStartOf="@+id/act_questions_time"
+        app:layout_constraintStart_toEndOf="@+id/act_questions_denominador"
+        app:layout_constraintTop_toBottomOf="@+id/act_questions_backMenu"/>
+
+    <TextView
+        android:id="@+id/act_questions_score"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toStartOf="@+id/act_questions_numerador"
+        app:layout_constraintStart_toEndOf="@+id/act_questions_scoreTxt"
+        app:layout_constraintTop_toBottomOf="@+id/act_questions_backMenu" />
+
+    <TextView
+        android:id="@+id/act_questions_scoreTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/punt"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toStartOf="@+id/act_questions_score"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/act_questions_backMenu" />
+
+    <TextView
+        android:id="@+id/act_questions_numerador"
+        android:layout_width="39dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toStartOf="@+id/act_questions_slash"
+        app:layout_constraintStart_toEndOf="@+id/act_questions_score"
+        app:layout_constraintTop_toBottomOf="@+id/act_questions_backMenu" />
+
+    <TextView
+        android:id="@+id/act_questions_slash"
+        android:layout_width="10dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center"
+        android:text="/"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toStartOf="@+id/act_questions_denominador"
+        app:layout_constraintStart_toEndOf="@+id/act_questions_numerador"
+        app:layout_constraintTop_toBottomOf="@+id/act_questions_backMenu" />
+
+    <TextView
+        android:id="@+id/act_questions_denominador"
+        android:layout_width="39dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="N"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toStartOf="@+id/act_questions_timerTxt"
+        app:layout_constraintStart_toEndOf="@+id/act_questions_slash"
+        app:layout_constraintTop_toBottomOf="@+id/act_questions_backMenu" />
+
+
+</android.support.constraint.ConstraintLayout>
